@@ -18,7 +18,7 @@ jobs:
         uses: 'google-github-actions/auth@v1'
         with:
           workload_identity_provider: 'projects/762217423115/locations/global/workloadIdentityPools/gha-pool/providers/OIDC'
-          service_account: '<利用したいサービスアカウント>'
+          service_account: 'sa-github-actions@focus-pottery-442308-p9.iam.gserviceaccount.com'
       - name: 'Set up Cloud SDK'
         uses: 'google-github-actions/setup-gcloud@v1'
         with:
